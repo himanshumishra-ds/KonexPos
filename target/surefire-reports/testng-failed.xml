@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" verbose="0" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.konexPos.customersTest.BarCodeScantest">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configureBeforeClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configureBeforeMethod"/>
+          <include name="barCodeScan"/>
+          <include name="configureBeforeSuite"/>
+          <include name="ConfigureAfterMethod"/>
+        </methods>
+      </class> <!-- com.konexPos.customersTest.BarCodeScantest -->
+      <class name="com.konexPos.customersTest.OrderPlaceAtPosScreentest">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="verifyOrderPlaced"/>
+          <include name="configureBeforeClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configureBeforeMethod"/>
+          <include name="configureBeforeSuite"/>
+          <include name="ConfigureAfterMethod"/>
+          <include name="addCustomer"/>
+        </methods>
+      </class> <!-- com.konexPos.customersTest.OrderPlaceAtPosScreentest -->
+      <class name="com.konexPos.customersTest.AddCustomertest">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="createCustomer"/>
+          <include name="configureBeforeClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configureBeforeMethod"/>
+          <include name="configureBeforeSuite"/>
+          <include name="ConfigureAfterMethod"/>
+        </methods>
+      </class> <!-- com.konexPos.customersTest.AddCustomertest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
